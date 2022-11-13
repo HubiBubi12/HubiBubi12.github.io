@@ -1,60 +1,78 @@
-$<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>projekt2</title>
+    <!-- <style>
+      h3 {
+        color: #fc7629;
+      }
+    </style> -->
   </head>
   <body>
+    <!-- <div class="first-class">
+      <div class="second-class">
+        <h1 class="third-class" id="first-id" style="color: green">Text</h1>
+      </div>
+    </div> -->
     <header>
-      <h1>Welcome to My&nbsp; first&nbsp;git website!</h1>
+      <h1>Welcome to My first git website!</h1>
       <a href="contact.html">Contact me!</a>
       <!--<a href="https://www.google.com">Find in google</a>-->
-      <br />
     </header>
-    <article>
-      <h3>This is my frist blog post</h3>
-      <p>This is the content of my first blog post</p>
-      <br />
-    </article>
-    <article>
-      <h3>This is my second blog post</h3>
-      <p>This is the content of my first blog &lt; something &gt; post</p>
-      <br />
-    </article>
 
-    <article>
-      <h3>This is my third blog post</h3>
-      <p>This is the content of my first& blog something post</p>
-      <br />
-      continue the content after <i>breaking line</i>
-      <sup class="sup_element" style="color: red">*</sup>
-      <small><sup class="sup_element">*</sup>another sentence </small>
-      <br /><br /><br />
-    </article>
+    <div id="main-content">
+      <section id="articles">
+        <article>
+          <!-- styl wbudowany w linie jest ostatni w kolejce drugi jest <style> i pierwszy jest zew arkusz-->
+          <h3>This is my frist blog post</h3>
+          <p>This is the content of my first blog post</p>
+        </article>
 
-    <br /><br /><br />
-    <div>
-      My skills s
+        <article>
+          <h3>This is my second blog post</h3>
+          <p>This is the content of my first blog &lt;something&gt; post</p>
+        </article>
 
-      <table border="1">
-        <tr>
-          <th>Technology</th>
-          <th>level</th>
-        </tr>
-        <tr>
-          <td>HTML</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>0</td>
-        </tr>
-      </table>
+        <article>
+          <h3>This is my third blog post</h3>
+          <p>
+            This is the <mark>content</mark> of my first& blog something post
+          </p>
+
+          continue the content after <i>breaking line</i>
+          <sup class="sup_element">*</sup>
+          <small><sup class="sup_element">*</sup>another sentence </small>
+        </article>
+      </section>
+
+      <div id="skills">
+        <b style="font-size: 34; font-weight: 900; color: #20d0ff">My skills</b>
+
+        <table border="1">
+          <tr>
+            <th>Technology</th>
+            <th>level</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>good</td>
+          </tr>
+        </table>
+      </div>
     </div>
-    <br /><br /><br />
+
     <footer>
       <div>Footer area. &copy; <strong>Me </strong> & <b>My</b> Tutor</div>
     </footer>
